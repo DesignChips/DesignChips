@@ -34,9 +34,13 @@ p {
   background-color: #fff;
 }
 
-.site__title {
+.header__link {
   color: #333;
   text-decoration: none;
+}
+
+.header__title {
+  font-size: 24px;
 }
 
 .site__section {
@@ -60,6 +64,7 @@ p {
 
 .footer__navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -91,23 +96,14 @@ p {
 .bland {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-}
-
-.bland__name {
-  margin: 0 0 0 5px;
-  font-size: 14px;
-}
-
-.bland__name--note {
-  margin: 0 0 0 3px;
 }
 
 .bland__icon {
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   background: center no-repeat;
   background-size: contain;
 }
@@ -126,5 +122,5 @@ p {
 
 .bland__icon--note {
   background-image: url("../images/bland-resources/note/logo_symbol.png");
-  background-size: 32px;
+  background-size: 44px;
 }
