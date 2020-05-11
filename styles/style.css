@@ -88,3 +88,43 @@ p {
   font-size: 18px;
 }
 
+.bland {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bland__name {
+  margin: 0 0 0 5px;
+  font-size: 14px;
+}
+
+.bland__name--note {
+  margin: 0 0 0 3px;
+}
+
+.bland__icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: center no-repeat;
+  background-size: contain;
+}
+
+.bland__icon--facebook {
+  background-image: url("../images/bland-resources/facebook/f_logo_RGB-Blue_72.png");
+}
+
+.bland__icon--twitter {
+  background-image: url("../images/bland-resources/twitter/Twitter_Social_Icon_Circle_Color.png");
+}
+
+.bland__icon--github {
+  background-image: url("../images/bland-resources/github/GitHub-Mark-64px.png");
+}
+
+.bland__icon--note {
+  background-image: url("../images/bland-resources/note/logo_symbol.png");
+  background-size: 32px;
+}
