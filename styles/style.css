@@ -8,7 +8,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --theme-back-color: #010101;
+    --theme-back-color: #333;
     --theme-front-color: #eeeeee;
     --theme-border-color: #ccc;
   }
